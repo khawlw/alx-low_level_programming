@@ -1,10 +1,10 @@
 #include <unistd.h>
 /**
- * main - A c program that prints a line to the standard error
- * Return: always 1
+ * main - Entry point
+ * Return: Always 0 (Sucess)
  */
 int main(void)
 {
-	write(2, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\r", 59);
-return (1);
+	write(2, "and that peice of art is useful\" - Dora Korpar, 2015-10-19\n", 59);
+	return (1);
 }

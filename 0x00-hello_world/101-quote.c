@@ -1,7 +1,10 @@
 #include <unistd.h>
 /**
  * main - Entry point
- * Return: Always 0 (Sucess)
+ *
+ * Description : A c program that prints a line to the standard error.
+ *
+ * Return: Always 0 (Success)
  */
 int main(void)
 {

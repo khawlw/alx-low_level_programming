@@ -4,6 +4,8 @@
 /*
  * main - Determine if a number is positive, negative, or zero.
  *
+ * This function generates a random integer, and prints the results.
+ *
  * Return: Always 0 (Success)
  */
 int main(void)

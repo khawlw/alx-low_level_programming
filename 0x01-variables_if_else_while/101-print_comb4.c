@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main -Prints all possible different combinaitions of three digits 
+ * main -Prints all possible different combinaitions of three digits.
  * Return: Always 0 (Success)
  */
 int main(void)
@@ -13,7 +13,7 @@ int main(void)
 		{
 			for (l = 50; l < 58; l++)
 			{
-				if(l > m && m > n)
+				if (l > m && m > n)
 				{
 					putchar(n);
 					putchar(m);

@@ -1,14 +1,14 @@
 #include "main.h"
 
 /**
- * Print_alphabet - this is the function of the task
+ * Print_alphabet - this function that prints the alphabet, in lowercase, followed by a new line.
  * Return: 0
  */
 void print_alphabet(void)
 {
 	char c;
 
-	for(c = 'a'; c <= 'z'; c++)
+	for (c = 'a'; c <= 'z'; c++)
 	{
 		_putchar(c);
 	}

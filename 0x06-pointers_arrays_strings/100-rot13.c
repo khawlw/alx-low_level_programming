@@ -2,7 +2,7 @@
 
 /**
  * rot13 - encodes a string using rot13
- * @a: input string
+ * @s: input string
  * Return: encoded string
  */
 
@@ -16,7 +16,7 @@ char *rot13(char *s)
 
 	while (*s)
 	{
-		for (i = 0; i < 52; i++)
+		for (i = 0; i <= 52; i++)
 		{
 			if (*s == rot13[i])
 			{

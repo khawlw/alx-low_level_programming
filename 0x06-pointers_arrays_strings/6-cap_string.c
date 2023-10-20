@@ -46,10 +46,10 @@ char *cap_string(char *s)
 		else if (isLower(*s) && foundDelimit)
 		{
 			*s -= 32;
-			foudDelimit = 0;
+			foundDelimit = 0;
 		}
 		else
-			foudDelimit = 0;
+			foundDelimit = 0;
 		s++;
 	}
 	return (ptr);

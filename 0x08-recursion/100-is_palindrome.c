@@ -32,7 +32,7 @@ int is_palindrome(char *s)
 
 /**
  * check - checker for the palindrome
- * às: string
+ * @s: string
  * @start: int moves from right to left
  * @end: int moves from left to right
  * @mod: int

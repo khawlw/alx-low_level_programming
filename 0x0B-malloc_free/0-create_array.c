@@ -5,19 +5,19 @@
  * *create_array - creates an array of chars,
  * and initializes it whith a specific char.
  * @size: size of the array
- * @c: char to initialize
- * Return: pointer to the array initialized or NULL
+ * @c: char to assign
+ * Return: pointer to array, NULL if fail
  */
-
 char *create_array(unsigned int size, char c);
 {
-	char *n = malloc(size);
+	char *str;
+	unsigned int i;
 
-	if (size == 0 || n == NULL)
+	str = malloc(sizeof(char) * size);
+	if (size == 0 || str == NULL)
 		return (NULL);
 
-	while (size--)
-		n[size] = c;
-
-	return (n);
+	for (i = 0; i < size; i++)
+		str[i] = c;
+	return (str);
 }

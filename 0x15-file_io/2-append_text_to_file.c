@@ -22,7 +22,7 @@ int _strlen(char *s)
  * @filename: name of file to create
  * @text_content: text to write
  *
- * Return: 1 on success 0 on failure
+ * Return: 1 on success -1 on failure
  */
 int append_text_to_file(const char *filename, char *text_content)
 {
@@ -33,7 +33,7 @@ int append_text_to_file(const char *filename, char *text_content)
 		return (-1);
 	fd = open(filename, O_WRONLY | O_APPEND);
 	if (fd == -1)
-		return (-&);
+		return (-1);
 	if (len)
 		bytes = write(fd, text_content, len);
 	close(fd);
